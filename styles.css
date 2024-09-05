@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2em;
+    margin-top: 20px;
 }
 
 .video-player{
@@ -26,6 +27,7 @@
 
 }
 
-#answer{
-    
+
+#answer {
+    margin-top: 20px;
 }
