@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_339e5fb750109dc9a4e4c0303ed5159b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_339e5fb750109dc9a4e4c0303ed5159b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_339e5fb750109dc9a4e4c0303ed5159b = L.map(
+                "map_339e5fb750109dc9a4e4c0303ed5159b",
+                {
+                    center: [52.5219, 13.4132],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_aa87e571c4afe31e469e8a5ccfe4745f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+            var marker_a7379780d9cb506d1ec5dcc9b80827bd = L.marker(
+                [52.5219, 13.4132],
+                {}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+        var popup_608fdcfa1ce47ece8e4b2a2e5d94dcb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cded1858db74658352b155e8235b9650 = $(`<div id="html_cded1858db74658352b155e8235b9650" style="width: 100.0%; height: 100.0%;">Alexanderplatz</div>`)[0];
+            popup_608fdcfa1ce47ece8e4b2a2e5d94dcb4.setContent(html_cded1858db74658352b155e8235b9650);
+        
+
+        marker_a7379780d9cb506d1ec5dcc9b80827bd.bindPopup(popup_608fdcfa1ce47ece8e4b2a2e5d94dcb4)
+        ;
+
+        
+    
+    
+            var marker_c2b75fb5e2ec31860bfab488c6f2f360 = L.marker(
+                [52.5219, 13.4132],
+                {}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+        var popup_c9f7b2fe402fae0b5fbaaf9c562c9802 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79e350eb88738de526d41b5cb5f245df = $(`<div id="html_79e350eb88738de526d41b5cb5f245df" style="width: 100.0%; height: 100.0%;">World Clock & TV Tower</div>`)[0];
+            popup_c9f7b2fe402fae0b5fbaaf9c562c9802.setContent(html_79e350eb88738de526d41b5cb5f245df);
+        
+
+        marker_c2b75fb5e2ec31860bfab488c6f2f360.bindPopup(popup_c9f7b2fe402fae0b5fbaaf9c562c9802)
+        ;
+
+        
+    
+    
+            var marker_bfab4456e9a5cd44be7eff21fc205123 = L.marker(
+                [52.5169, 13.4019],
+                {}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+        var popup_16182ac1ed54e459eef70287fe8bf778 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87fd950dddff21b86d7d15c268049186 = $(`<div id="html_87fd950dddff21b86d7d15c268049186" style="width: 100.0%; height: 100.0%;">Museum Island</div>`)[0];
+            popup_16182ac1ed54e459eef70287fe8bf778.setContent(html_87fd950dddff21b86d7d15c268049186);
+        
+
+        marker_bfab4456e9a5cd44be7eff21fc205123.bindPopup(popup_16182ac1ed54e459eef70287fe8bf778)
+        ;
+
+        
+    
+    
+            var marker_2bf2e7d00ff90abdad989e5824faf922 = L.marker(
+                [52.5194, 13.401],
+                {}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+        var popup_4713d3cc49821e96d0cd93c650f81da1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddda55efb15172ec09ce5d0c5a9e77e3 = $(`<div id="html_ddda55efb15172ec09ce5d0c5a9e77e3" style="width: 100.0%; height: 100.0%;">Berlin Cathedral</div>`)[0];
+            popup_4713d3cc49821e96d0cd93c650f81da1.setContent(html_ddda55efb15172ec09ce5d0c5a9e77e3);
+        
+
+        marker_2bf2e7d00ff90abdad989e5824faf922.bindPopup(popup_4713d3cc49821e96d0cd93c650f81da1)
+        ;
+
+        
+    
+    
+            var marker_4ba1c5dc259bec4bb38e41b9e2b1c8f2 = L.marker(
+                [52.5173, 13.3889],
+                {}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+        var popup_a4766b0b77a4423045f994a787ff01a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cbaca671555767268244b22e875c0ef = $(`<div id="html_0cbaca671555767268244b22e875c0ef" style="width: 100.0%; height: 100.0%;">Unter den Linden</div>`)[0];
+            popup_a4766b0b77a4423045f994a787ff01a7.setContent(html_0cbaca671555767268244b22e875c0ef);
+        
+
+        marker_4ba1c5dc259bec4bb38e41b9e2b1c8f2.bindPopup(popup_a4766b0b77a4423045f994a787ff01a7)
+        ;
+
+        
+    
+    
+            var marker_18967b41b8564ce5b937e83084b9db7b = L.marker(
+                [52.5163, 13.3777],
+                {}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+        var popup_e549dc82b77e3b5228cf37f5a6333304 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87969e352b9a1c5a84121d2f5447b653 = $(`<div id="html_87969e352b9a1c5a84121d2f5447b653" style="width: 100.0%; height: 100.0%;">Brandenburg Gate</div>`)[0];
+            popup_e549dc82b77e3b5228cf37f5a6333304.setContent(html_87969e352b9a1c5a84121d2f5447b653);
+        
+
+        marker_18967b41b8564ce5b937e83084b9db7b.bindPopup(popup_e549dc82b77e3b5228cf37f5a6333304)
+        ;
+
+        
+    
+    
+            var marker_2a325f91762d378056639f5c2d5be7dc = L.marker(
+                [52.5186, 13.3762],
+                {}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+        var popup_94e7d065c34b86053e9a64e1328c11cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25e895e28758b816c87e112bf5521f33 = $(`<div id="html_25e895e28758b816c87e112bf5521f33" style="width: 100.0%; height: 100.0%;">Reichstag</div>`)[0];
+            popup_94e7d065c34b86053e9a64e1328c11cd.setContent(html_25e895e28758b816c87e112bf5521f33);
+        
+
+        marker_2a325f91762d378056639f5c2d5be7dc.bindPopup(popup_94e7d065c34b86053e9a64e1328c11cd)
+        ;
+
+        
+    
+    
+            var marker_1c16ebf414c240f8ff7463e2ce9b7057 = L.marker(
+                [52.5139, 13.3807],
+                {}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+        var popup_161606949d7abc3ed7438e8c73ff7490 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76cdc67cf30f6d63b01e8435faabb0f8 = $(`<div id="html_76cdc67cf30f6d63b01e8435faabb0f8" style="width: 100.0%; height: 100.0%;">Holocaust Memorial</div>`)[0];
+            popup_161606949d7abc3ed7438e8c73ff7490.setContent(html_76cdc67cf30f6d63b01e8435faabb0f8);
+        
+
+        marker_1c16ebf414c240f8ff7463e2ce9b7057.bindPopup(popup_161606949d7abc3ed7438e8c73ff7490)
+        ;
+
+        
+    
+    
+            var marker_cab96f5c932b73712bdffa076ee80eb4 = L.marker(
+                [52.505, 13.4496],
+                {}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+        var popup_e03fe6778c7b9ef7401ab32681c29c0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_572d19f4f34342408798132071fa4571 = $(`<div id="html_572d19f4f34342408798132071fa4571" style="width: 100.0%; height: 100.0%;">Warschauer Straße</div>`)[0];
+            popup_e03fe6778c7b9ef7401ab32681c29c0f.setContent(html_572d19f4f34342408798132071fa4571);
+        
+
+        marker_cab96f5c932b73712bdffa076ee80eb4.bindPopup(popup_e03fe6778c7b9ef7401ab32681c29c0f)
+        ;
+
+        
+    
+    
+            var marker_fc132e4431952ea1ee6fb8f9c0fc0c49 = L.marker(
+                [52.5025, 13.4461],
+                {}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+        var popup_45975da19284173bce3b43ca0b46f9af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6cd0d143029adb92fe7683ef506f3bf = $(`<div id="html_e6cd0d143029adb92fe7683ef506f3bf" style="width: 100.0%; height: 100.0%;">Oberbaum Bridge</div>`)[0];
+            popup_45975da19284173bce3b43ca0b46f9af.setContent(html_e6cd0d143029adb92fe7683ef506f3bf);
+        
+
+        marker_fc132e4431952ea1ee6fb8f9c0fc0c49.bindPopup(popup_45975da19284173bce3b43ca0b46f9af)
+        ;
+
+        
+    
+    
+            var marker_1ea8cecd2863c5d7db3b9ddafb4eb334 = L.marker(
+                [52.5054, 13.439],
+                {}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+        var popup_d9a636faec2613740ce68ec273c6719e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd5d84c48c76ae1af3b7428ea2487a4e = $(`<div id="html_bd5d84c48c76ae1af3b7428ea2487a4e" style="width: 100.0%; height: 100.0%;">East Side Gallery</div>`)[0];
+            popup_d9a636faec2613740ce68ec273c6719e.setContent(html_bd5d84c48c76ae1af3b7428ea2487a4e);
+        
+
+        marker_1ea8cecd2863c5d7db3b9ddafb4eb334.bindPopup(popup_d9a636faec2613740ce68ec273c6719e)
+        ;
+
+        
+    
+    
+            var marker_d48fc29a935d6ade96ae24ea3a1197b2 = L.marker(
+                [52.4993, 13.4369],
+                {}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+        var popup_c1e47897427c5dd2cabc6a159bad35c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b8ff9c257d82fb09f39e73ba778f8a2 = $(`<div id="html_4b8ff9c257d82fb09f39e73ba778f8a2" style="width: 100.0%; height: 100.0%;">Markthalle Neun</div>`)[0];
+            popup_c1e47897427c5dd2cabc6a159bad35c8.setContent(html_4b8ff9c257d82fb09f39e73ba778f8a2);
+        
+
+        marker_d48fc29a935d6ade96ae24ea3a1197b2.bindPopup(popup_c1e47897427c5dd2cabc6a159bad35c8)
+        ;
+
+        
+    
+    
+            var marker_aa91b5f6b100faad81f6f1202e67ef97 = L.marker(
+                [52.5009, 13.4466],
+                {}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+        var popup_63ebee4da85a609878d6662677781e1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d95d5d9edb1d4caf1c75eb392ec4bdb2 = $(`<div id="html_d95d5d9edb1d4caf1c75eb392ec4bdb2" style="width: 100.0%; height: 100.0%;">Burgermeister</div>`)[0];
+            popup_63ebee4da85a609878d6662677781e1e.setContent(html_d95d5d9edb1d4caf1c75eb392ec4bdb2);
+        
+
+        marker_aa91b5f6b100faad81f6f1202e67ef97.bindPopup(popup_63ebee4da85a609878d6662677781e1e)
+        ;
+
+        
+    
+    
+            var marker_e74206fd649fbea1e1a76c6bb64e066c = L.marker(
+                [52.5075, 13.3825],
+                {}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+        var popup_cdb893c76f9068260f07af81f036cdfb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e766b72d6882e3258e13368e7dfcba8d = $(`<div id="html_e766b72d6882e3258e13368e7dfcba8d" style="width: 100.0%; height: 100.0%;">Topography of Terror</div>`)[0];
+            popup_cdb893c76f9068260f07af81f036cdfb.setContent(html_e766b72d6882e3258e13368e7dfcba8d);
+        
+
+        marker_e74206fd649fbea1e1a76c6bb64e066c.bindPopup(popup_cdb893c76f9068260f07af81f036cdfb)
+        ;
+
+        
+    
+    
+            var marker_e389111cb27881dd03f6517790d17193 = L.marker(
+                [52.5145, 13.3501],
+                {}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+        var popup_21bcb89326492a69cf94a85c54d1bcfb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04b310f5889c63aa1a4b8711cd10f44c = $(`<div id="html_04b310f5889c63aa1a4b8711cd10f44c" style="width: 100.0%; height: 100.0%;">Tiergarten</div>`)[0];
+            popup_21bcb89326492a69cf94a85c54d1bcfb.setContent(html_04b310f5889c63aa1a4b8711cd10f44c);
+        
+
+        marker_e389111cb27881dd03f6517790d17193.bindPopup(popup_21bcb89326492a69cf94a85c54d1bcfb)
+        ;
+
+        
+    
+    
+            var marker_b8670d866f777cb40b13e851799f560b = L.marker(
+                [52.538, 13.4244],
+                {}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+        var popup_5d3037cba2f3132536c93ae1949d1d3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ed60e8c44cb564b3419e9403cef2ec3 = $(`<div id="html_7ed60e8c44cb564b3419e9403cef2ec3" style="width: 100.0%; height: 100.0%;">Prenzlauer Berg</div>`)[0];
+            popup_5d3037cba2f3132536c93ae1949d1d3b.setContent(html_7ed60e8c44cb564b3419e9403cef2ec3);
+        
+
+        marker_b8670d866f777cb40b13e851799f560b.bindPopup(popup_5d3037cba2f3132536c93ae1949d1d3b)
+        ;
+
+        
+    
+    
+            var marker_7b22592c3c7c546b1469a70d255746a1 = L.marker(
+                [52.5107, 13.2825],
+                {}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+        var popup_393d3b5ee42b7421846ba5bdb16c2701 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7d7b03218f323debb211248533435f6 = $(`<div id="html_c7d7b03218f323debb211248533435f6" style="width: 100.0%; height: 100.0%;">Berlin ZOB</div>`)[0];
+            popup_393d3b5ee42b7421846ba5bdb16c2701.setContent(html_c7d7b03218f323debb211248533435f6);
+        
+
+        marker_7b22592c3c7c546b1469a70d255746a1.bindPopup(popup_393d3b5ee42b7421846ba5bdb16c2701)
+        ;
+
+        
+    
+    
+            var poly_line_1cf4f80ecc586b3475e8460b604d83b5 = L.polyline(
+                [[52.5219, 13.4132], [52.5169, 13.4019], [52.5194, 13.401], [52.5173, 13.3889], [52.5163, 13.3777], [52.5186, 13.3762], [52.5139, 13.3807], [52.505, 13.4496], [52.5025, 13.4461], [52.5054, 13.439], [52.4993, 13.4369]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+            poly_line_1cf4f80ecc586b3475e8460b604d83b5.bindTooltip(
+                `<div>
+                     Day 1 Route
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1e1fe4ad164823f9d1c7a90e2ad8cc8b = L.polyline(
+                [[52.5219, 13.4132], [52.5107, 13.2825]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_339e5fb750109dc9a4e4c0303ed5159b);
+        
+    
+            poly_line_1e1fe4ad164823f9d1c7a90e2ad8cc8b.bindTooltip(
+                `<div>
+                     To ZOB
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
